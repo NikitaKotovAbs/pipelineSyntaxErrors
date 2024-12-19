@@ -12,6 +12,8 @@ def multiplication(num1, num2):
 def division(num1, num2):
     return num1 / num2
 
+тут синтаксическая ошибка
+
 print("Select operation.")
 print("1. Addition")
 print("2. Subtraction")
@@ -22,6 +24,8 @@ choice = int(input("Enter choice(1/2/3/4): "))
 
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
+
+и тут синтаксическая ошибка
 
 if choice == 1:
     print(num1, "+", num2, "=", addition(num1, num2))
